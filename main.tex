@@ -1,0 +1,73 @@
+% vim:ft=tex
+\documentclass{beamer}
+\usetheme{metropolis}
+
+% macros
+\input{prelude.tex}
+
+% metadata
+\title{Category $\cO$}
+\author{Riley Shahar}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{frame}{The Idea}
+	\pause
+	\begin{itemize}
+		\item Finite-dimensional representation theory is nice\pause
+		\item But it's not enough!\pause
+		\item $\cO$ is the right middle ground
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Outline}
+	\begin{itemize}
+		\item Defining $\cO$
+		\item Basic properties
+		\item Central characters
+		\item The block decomposition
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Data}
+	$\fg$ a finite-dimensional semisimple Lie algebra over $\CC$;\pause
+
+	$\fh$ a Cartan, $R$ a root system, $R^+$ positive roots, so\pause
+	\[\fg = \fn^-\oplus\fh\oplus\fn.\]
+\end{frame}
+
+\begin{frame}{The Definition}
+	$\cO$ contains $U\fg$-modules $V$:\pause
+	\begin{enumerate}
+		\item finitely generated\pause
+		\item $\fh$-semisimple\pause\hfill$\big[V =
+				      \bigoplus_{\lambda\in\fh^*} V_\lambda\big]\hspace{3em}$\pause
+		\item locally $\fn$-finite
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Finite-dimensional modules}
+	\begin{multicols}{2}
+		$\cO$ contains $U\fg$-modules $V$:
+		\begin{enumerate}
+			\item finitely generated
+			\item $\fh$-semisimple
+			\item locally $\fn$-finite
+		\end{enumerate}
+		Finite-dimensional modules are:\pause
+		\begin{enumerate}
+			\item finitely generated\pause
+			\item semisimple\pause
+			\item $\fg$-finite
+		\end{enumerate}
+	\end{multicols}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{References}
+	\nocite{*}
+	\printbibliography[heading=none,omitnumbers=true]
+\end{frame}
+
+\end{document}
